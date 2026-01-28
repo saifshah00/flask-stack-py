@@ -25,8 +25,8 @@ JOBS = [{
 
 
 @app.route("/")
-def hello_jovian():
-    return render_template('home.html', company_name='Jovian', jobs=JOBS)
+def hello_copycat():
+    return render_template('home.html', company_name='copycat', jobs=JOBS)
 
 
 if __name__ == "__main__":
