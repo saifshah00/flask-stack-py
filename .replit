@@ -8,6 +8,9 @@ externalPort = 80
 
 [nix]
 
+[agent]
+expertMode = true
+
 
 
 
